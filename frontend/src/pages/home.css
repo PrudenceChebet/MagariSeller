@@ -1,0 +1,43 @@
+.home-container {
+  text-align: center;
+  padding: 2rem;
+}
+
+.hero-section {
+  background-color: #1f2937;
+  color: #ffffff;
+  padding: 4rem 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  margin-top: 1.5rem;
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #f97316;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #ea580c;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.feature-card {
+  background-color: #f1f5f9;
+  padding: 2rem;
+  border-radius: 6px;
+  flex: 1 1 250px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
